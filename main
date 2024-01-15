@@ -14,7 +14,7 @@ def tftinit():
     return tft
             
 def main():
-    print("Wokwi-Simulator")
+    #print("Wokwi-Simulator")
     tft = tftinit()
     tft.clear(ili9342c.WHITE)
     class Button:
@@ -72,7 +72,8 @@ def main():
         if(win == False):
             continue
         else:
-            print(win, " hat gewonnen") 
+            print("Blau" if (win == 31) else "Rot", "hat gewonnen") 
+            break
 
 def checkWin(myList):
 
