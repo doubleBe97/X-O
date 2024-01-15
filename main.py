@@ -1,3 +1,4 @@
+#https://wokwi.com/projects/387024410728595457 
 from machine import Pin, SPI,SoftI2C
 import ili9342c
 
